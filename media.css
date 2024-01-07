@@ -11,9 +11,6 @@
     right: 30px;
   }
 
-  .nav-button {
-    position: fixed;
-  }
 
   .nav.open .nav-list {
     position: fixed;
@@ -29,6 +26,9 @@
     font-size: 34px;
     font-weight: 600;
     z-index: 1;
+    height: 100vh;
+    overflow: hidden;
+    
   }
 
   .nav-link {

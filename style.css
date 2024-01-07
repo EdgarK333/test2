@@ -33,12 +33,12 @@ body {
   margin-bottom: 76px;
 }
 
-
 .nav-list {
   display: flex;
   font-size: 15px;
   font-weight: 500;
   column-gap: 50px;
+  margin: 0;
 }
 
 .nav-link {
@@ -124,6 +124,3 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
-
-
