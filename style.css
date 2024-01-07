@@ -1,0 +1,129 @@
+@import url(/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6e5e5;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding-top: 46px;
+  background-color: #e6e5e5;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+
+.nav-list {
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  column-gap: 50px;
+}
+
+.nav-link {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s; /* Анимация смены цвета текста */
+}
+
+.nav-link:hover {
+  color: #000; /* Цвет текста при наведении */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Толщина подчеркивания */
+  background-color: #000; /* Цвет подчеркивания */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s; /* Анимация увеличения ширины подчеркивания */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Увеличиваем ширину подчеркивания при наведении */
+}
+
+.nav-button {
+  display: none;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  padding: 30px 0;
+}
+
+.header-text-row p {
+  padding-bottom: 50px;
+}
+
+.header-content {
+  margin-right: 0;
+  text-align: center;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.header-content img {
+  width: 280px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.header-content h1 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.header-content p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-text {
+  padding-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-text-row h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-text-row p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+

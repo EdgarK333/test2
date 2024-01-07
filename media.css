@@ -1,0 +1,157 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-button {
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 46px;
+    right: 30px;
+  }
+
+  .nav-button {
+    position: fixed;
+  }
+
+  .nav.open .nav-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #e6e5e5;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    z-index: 1;
+  }
+
+  .nav-link {
+    color: #000000;
+  }
+
+  .nav-link.active {
+    color: #000;
+  }
+
+  .nav-button {
+    position: fixed;
+    z-index: 9;
+    top: 46px;
+    right: 30px;
+  }
+
+  .header-nav {
+    margin-top: 50px;
+  }
+
+  .header-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .header-content {
+    margin-top: 0;
+  }
+
+  .header-image {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-link::after {
+    display: none; /* Скрываем подчеркивание для мобильных устройств */
+  }
+
+  .nav-link:hover {
+    color: #000;
+  }
+
+  .header-row {
+    margin-top: -100px;
+  }
+
+  .header-content img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .header-content h1 {
+    font-size: 34px;
+  }
+
+  #gallery {
+    padding: 60px 0;
+  }
+
+  .services {
+    padding: 60px 0;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+
+  .project-image {
+    margin-bottom: 30px;
+  }
+
+  .project + .project {
+    margin-top: 55px;
+  }
+
+  .contacts {
+    padding: 60px 0;
+  }
+
+  .contacts-title {
+    margin-bottom: 20px;
+  }
+
+  .contacts-content {
+    margin-bottom: 20px;
+  }
+
+  .contacts-button {
+    margin-bottom: 70px;
+  }
+
+  .contacts-socials {
+    margin-bottom: 20px;
+    column-gap: 50px;
+  }
+
+  .prices-rules {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .about-rules {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .foot-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foot div {
+    margin-bottom: 20px;
+  }
+}
